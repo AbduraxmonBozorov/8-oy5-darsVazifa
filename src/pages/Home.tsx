@@ -22,7 +22,7 @@ const Home: React.FC<HomeProps> = ({ data }) => {
   const navigate = useNavigate();
 
   if (!data || !data.data) {
-    return null; // Return null if data is not available
+    return null; 
   }
 
   const handleCard = (event: React.MouseEvent<HTMLDivElement>) => {
